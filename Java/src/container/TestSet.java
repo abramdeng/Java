@@ -30,7 +30,4 @@ public class TestSet {
 		System.out.println(sn);
 		System.out.println(su);
 	}
-	
-
-
 }
