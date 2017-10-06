@@ -32,8 +32,4 @@ public class TestIterator {
 		//输出collection
 		System.out.println("删除后的元素有"+c);
 	}	
-	
-	
-	
-	
 }
