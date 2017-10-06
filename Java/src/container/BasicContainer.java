@@ -31,6 +31,7 @@ class Name /*implements Comparable*/ {
     public String getLastName() {   return lastName;   }
     public String toString() {  return firstName + " " + lastName;  }
     
+    
    /*public boolean equals(Object obj) {
 	   //如果obj是一个Name对象
 	    if (obj instanceof Name) {
