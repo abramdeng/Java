@@ -7,6 +7,7 @@ import java.util.*;
  * 使用foreach遍历元素
  *
  */
+
 public class EnhancedFor {
 	public static void main(String[] args) {
 		int[] arr = {1, 2, 3, 4, 5};
