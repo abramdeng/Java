@@ -13,13 +13,13 @@ public class TestMap {
     //m1.put("one",new Integer(1));
     m1.put("one", 1);
     //m1.put("two",new Integer(2));
-    m1.put("two", 2);
-    //m1.put("three",new Integer(3));
     m1.put("three", 3);
+    //m1.put("three",new Integer(3));
+    m1.put("two", 2);
     //m2.put("A",new Integer(1));
-   	m2.put("A", 1);
-    //m2.put("B",new Integer(2));
     m2.put("B", 2);
+    //m2.put("B",new Integer(2));
+    m2.put("A", 1);//TreeMap会排序，hashMap没有为元素排序
     System.out.println(m1);
     System.out.println(m2);
     System.out.println("m1的长度"+m1.size());
