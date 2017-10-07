@@ -11,8 +11,6 @@ import java.util.List;
  * 链表的增删改取，常用算法的举例
  */
 public class TestList {
-
-
 	public static void main(String[] args) {
 		//链表的增删改取
 		List l1 = new LinkedList();
