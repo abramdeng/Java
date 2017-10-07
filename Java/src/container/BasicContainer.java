@@ -22,7 +22,7 @@ public class BasicContainer {
     }
 }
 
-class Name /*implements Comparable*/ {
+class Name implements Comparable {
     private String firstName,lastName;
     public Name(String firstName, String lastName) {
         this.firstName = firstName; this.lastName = lastName;
@@ -31,8 +31,8 @@ class Name /*implements Comparable*/ {
     public String getLastName() {   return lastName;   }
     public String toString() {  return firstName + " " + lastName;  }
     
-    
-   /*public boolean equals(Object obj) {
+/*   
+   public boolean equals(Object obj) {
 	   //如果obj是一个Name对象
 	    if (obj instanceof Name) {
 	        Name name = (Name) obj;
@@ -46,17 +46,16 @@ class Name /*implements Comparable*/ {
 			System.out.println("firstname:"+firstName.hashCode());
 			System.out.println("lastname"+lastName.hashCode());
 		    return firstName.hashCode();
-		}*/
-	  
-		/*
+		}
+	  */
+		//重写compareto方法，重写的方法不是很懂？？
+		@Override
 		public int compareTo(Object o) {
-        Name n = (Name)o;
-        int lastCmp = 
-            lastName.compareTo(n.lastName);
-        return 
-             (lastCmp!=0 ? lastCmp :
-              firstName.compareTo(n.firstName));
-    }*/
-		
+        Name n = (Name)o;//强制转换为Name对象
+        //使用String的compareto方法
+        int lastCmp = lastName.compareTo(n.lastName);
+       return (lastCmp!=0 ? lastCmp : firstName.compareTo(n.firstName));
+    }
+
 }
 
