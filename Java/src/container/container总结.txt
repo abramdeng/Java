@@ -1,0 +1,13 @@
+总结：
+一、1126
+	>一个图
+	>一个类
+		>>Collections
+	>两个知识点
+		>>foreach
+		>>Generic(泛型)
+	>六个接口
+		Collection,Set,List。
+		Map（key,value）
+		Iterator(指针遍历collection)
+		Comparable(比较容器中对象的大小)
