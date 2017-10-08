@@ -12,7 +12,7 @@ public class TestArgsWords {
 	  private static final int ONE = 1;
 	  public static void main(String args[]) {
 	    Map m = new HashMap();
-	    
+	    ///////
 	    for (int i = 0; i < args.length; i++) {
 	    	
 	    	//拿m的key的value,如果value为空，则赋值freq为0。如果不为空则freq赋值为m的value
