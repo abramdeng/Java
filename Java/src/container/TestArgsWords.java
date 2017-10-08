@@ -25,9 +25,10 @@ public class TestArgsWords {
 	        m.put(args[i],freq == 0? ONE:freq +1);
 	        //m.put(args[i],(freq == null? ONE : new Integer(freq.intValue() + 1)));
 	        
+	        
 	    }
 	    System.out.println
-	        (m.size() + " distinct words detected:");
+	        (m.size() + " distinct words detected:");//
 	    System.out.println(m);
 	  }
 	}
