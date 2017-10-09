@@ -7,6 +7,7 @@ import java.io.*;
  * BufferReader一行行的读取文件
  * BufferWriter写入文件流
  *程序只是写入了内存中的变量（String s）,然后使用write方法写入到文件
+ *
  */
 public class TestBufferStream2 {
   public static void main(String[] args) {

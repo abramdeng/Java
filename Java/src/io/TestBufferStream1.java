@@ -6,6 +6,7 @@ import java.io.*;
  * @author ABRAM 2017.10.09
  * 使用Buffer流读取流，使用mark和reset方法。
  *程序只是输出了内存的转换后的变量（int c）
+ *
  */
 public class TestBufferStream1 {
   public static void main(String[] args) {
