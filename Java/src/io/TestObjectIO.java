@@ -7,7 +7,8 @@ import java.io.*;
  * @author ABRAM 2017.10.08
  * 使用ObjectStream读写文件并写入到序列化类中然后进行操作
  * transient值在序列化的时候无用
- *
+ * Serializable标志可以序列化
+ * Externalizable自己控制序列化
  */
 public class TestObjectIO {
 	public static void main(String args[]) throws Exception {
