@@ -3,7 +3,7 @@ import java.io.*;
 /***
  * 
  * @author ABRAM 2017.10.09
- * FileReader读取字符集并输出，不会出现乱码
+ * FileReader读取字符流并输出，不会出现乱码
  *
  */
 public class TestFileReader {
@@ -11,7 +11,7 @@ public class TestFileReader {
     FileReader fr = null; 
     int c = 0;
     try {
-      fr = new FileReader("E:\\Java教程\\马士兵JAVA\\java\\io\\TestFileInputStream.java");
+      fr = new FileReader("C:\\Users\\ABRAM\\Desktop\\111.txt");
       int ln = 0;
       while ((c = fr.read()) != -1) {
         //char ch = (char) fr.read();
