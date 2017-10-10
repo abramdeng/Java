@@ -19,7 +19,7 @@ class MyThread3 extends Thread {
 		for(int i =1;i<=100;i++){
 			System.out.println(getName()+": "+i);
 			if(i%10==0){			
-				yield();//
+				yield();//相当于切换线程
 				System.out.println("我让出CPU");
 			}
 		}
