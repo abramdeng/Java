@@ -11,7 +11,6 @@ public class Test {
 		Person p =new Child();
 		p.sing();
 	}
-	
 	public static void main(String args[]) {
 		Test t = new Test();
 		t.sing();

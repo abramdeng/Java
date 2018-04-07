@@ -10,7 +10,7 @@ public interface Person {
 	
 	public int age();
 	
-	@Deprecated
+	
 	public void sing();
 
 }
